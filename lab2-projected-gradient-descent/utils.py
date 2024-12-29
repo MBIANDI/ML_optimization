@@ -11,8 +11,9 @@ def gradient_descent(X, y, alpha, learning_rate, iterations):
     theta = np.zeros(n)
     losses = []
     for _ in range(iterations):
-        gradient = (X.T @ (X @ theta - y) + alpha * theta) / m # Calcul du gradient
+        gradient = (X.T @ (X @ theta - y) + alpha * theta) / m # Calcul du gradient formule théorique du calcul du gradient
         theta -= learning_rate * gradient # Mise à jour des paramètres
+        # theta = theta - learning_rate * gradient
         loss = mean_squared_error(y, X @ theta) # Calcul de la loss
         losses.append(loss)
     return theta, losses
