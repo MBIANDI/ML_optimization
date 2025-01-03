@@ -9,4 +9,4 @@ This repo is for machine learning optimization simulations.
 
 3. Project packaging : [TP](https://github.com/MBIANDI/ML_optimization/tree/main/lab3-projet-packaging)
 
-5. Stochastic Gradient Descent (SGD) :
+5. Stochastic Gradient Descent (SGD) : [TP](https://github.com/MBIANDI/ML_optimization/tree/main/lab4-SGD)
